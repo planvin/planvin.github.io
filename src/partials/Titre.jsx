@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { forwardRef } from 'react';
 import Soleil from '../images/soleil.jpeg';
 
-const HeroHome =  forwardRef((props,  ref) => {
+const Titre =  forwardRef((props,  ref) => {
 
   return (
     <section className="relative">
@@ -25,4 +25,4 @@ const HeroHome =  forwardRef((props,  ref) => {
 });
 
 
-export default HeroHome;
+export default Titre;

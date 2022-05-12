@@ -22,8 +22,8 @@ const Rsvp = forwardRef((props, ref) => {
 
 
           {/* Content */}
-          <div className="text-center rounded-md bg-white bg-opacity-75 mx-20 p-10" data-aos="fade-right">
-            <p className="content-center inline-block"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScaWGuFAUs_chzXuRRdeMvIChLekWX4DJvlAqPaAdpbJ8gneg/viewform?embedded=true" width="640" height="966" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe></p>
+          <div className="text-center rounded-md bg-white bg-opacity-75 p-10" data-aos="fade-right">
+            <p className="content-center"><iframe className="inline-block" src="https://docs.google.com/forms/d/e/1FAIpQLScaWGuFAUs_chzXuRRdeMvIChLekWX4DJvlAqPaAdpbJ8gneg/viewform?embedded=true" width="100%" height="966" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe></p>
             <br/><br/>Si le formulaire ne s'affiche pas bien, vous pouvez y accéder ici : <br/> <a target="_blank" href="https://forms.gle/wmgVgSZvAarFWdnUA"><b>Confirmer ma présence</b></a>
           </div>
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Header({scrollToHero, scrollToProgramme, scrollToHebergement, scrollToRsvp}) {
+function Header({scrollToHero, scrollToProgramme, scrollToHebergement, scrollToRsvp, scrollToList}) {
 
   const [top, setTop] = useState(true);
 
@@ -42,7 +42,7 @@ function Header({scrollToHero, scrollToProgramme, scrollToHebergement, scrollToR
                 <a onClick={scrollToRsvp} className="font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">RSVP</a>
               </li>
               <li>
-                <a onClick={scrollToRsvp} className="font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">Liste de mariage</a>
+                <a onClick={scrollToList} className="font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">Liste de mariage</a>
               </li>
             </ul>
 

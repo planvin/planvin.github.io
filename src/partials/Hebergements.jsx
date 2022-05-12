@@ -22,7 +22,7 @@ const Hebergements = forwardRef((props, ref) => {
 
 
           {/* Content */}
-          <div className="text-center rounded-md bg-white bg-opacity-75 mx-20 p-10" data-aos="fade-right">
+          <div className="text-gray-600 text-center rounded-md bg-white bg-opacity-75 mx-20 p-10" data-aos="fade-right">
             <p>Voici une liste d'hébergements dans les environs en fonction du budget:</p>
             <br/>
             <br/>
